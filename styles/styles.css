@@ -230,3 +230,64 @@ nav ul li{
     font-size: 16px;
     opacity: 0.7;
 }
+
+/* Donate Styles */
+.donate-section{
+    margin: 0px 160px;
+    font-family: "Fira Sans", serif;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 0px 105px;
+}
+.donate-title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+.donate-description{
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+.donate-cards{
+    display: flex;
+    height: 128px;
+    gap: 24px;
+    margin-bottom: 32px;
+    justify-content: space-between;
+}
+
+.donate-card{
+    background-color: white;
+    border-radius: 16px;
+    width: 25%;
+    border: rgba(14, 14, 14, 0.15) 1px solid;
+}
+.donate-card-title{
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+}
+#donate-input{
+    width: 90%;
+    margin-bottom: 32px;
+    padding: 20px 40px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-family: "Fira Sans", serif;
+}
+
+.card-selected{
+    background-color: #C6E4D6;
+}
+
+/* Newsletter styles */
+.newsletter-section{
+    margin: 0px 160px;
+    font-family: "Fira Sans", serif;
+    margin-bottom: 80px;
+    text-align: center;
+    padding: 80px 265px;
+}
