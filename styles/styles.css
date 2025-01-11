@@ -309,3 +309,60 @@ nav ul li{
 }
 
 /* Footer Styles */
+footer{
+    background-color: white;
+    font-family: "Fira Sans", serif;
+    padding: 40px 160px;
+    text-align: center;
+}
+
+.footer-title{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+hr{
+    margin-bottom: 32px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icons{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* Quotation Styles */
+.quotation-section{
+    margin: 0px 160px;
+    font-family: "Fira Sans", serif;
+    margin-bottom: 80px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    padding: 12px 24px;
+}
+
+.quote-content{
+    background-image: url('../images/quote-bg.png');
+    background-position: top-left;
+    background-repeat: no-repeat;
+}
+.quote{
+    font-size: 16px;
+    padding: 25px 0px 0px 0px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.quote-person{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 8px 0px;
+}
+.quote-person-description{
+    padding: 0px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
