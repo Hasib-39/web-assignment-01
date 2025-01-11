@@ -24,6 +24,11 @@ body{
     padding: 15px 30px;
     border: none;
 }
+.btn-primary:hover{
+    background-color: white;
+    color: #006A50;
+    border: #006A50 1px solid;
+}
 .btn-secondary{
     width: 116px;
     height: 52px;
@@ -164,13 +169,30 @@ nav ul li{
 .green-btn{
     background-color: #09A15C;
 }
+.green-btn:hover{
+    background-color: white;
+    color: #09A15C;
+    border: #09A15C 1px solid;
+}
 
 .orange-btn{
     background-color: #FFC239;
 }
 
+.orange-btn:hover{
+    background-color: white;
+    color: #FFC239;
+    border: #FFC239 1px solid;
+}
+
 .blue-btn{
     background-color: #5490F5;
+}
+
+.blue-btn:hover{
+    background-color: white;
+    color: #5490F5;
+    border: #5490F5 1px solid;
 }
 
 /* Recent News Styles */
@@ -260,7 +282,7 @@ nav ul li{
     font-family: "Fira Sans", serif;
 }
 
-.card-selected{
+.card-selected, .donate-card:hover{
     background-color: #C6E4D6;
 }
 
